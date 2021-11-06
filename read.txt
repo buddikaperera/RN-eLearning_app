@@ -1,0 +1,23 @@
+
+react-native-pixel-perfect
+
+https://reactnavigation.org/docs/5.x/getting-started
+
+npm install @react-navigation/native@^5.x
+
+npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install @react-navigation/stack@^5.x
+npm install @react-navigation/bottom-tabs@^5.x
+react-native link
+react-native run-android
+cd android && ./gradlew clean
+npx react-native link react-native-vector-icons
+npm run start --reset-cache
+
+
+npm i --save react-native-swiper@nightly
+
+
+npm install react-native-vector-icons --save 
+react-native link react-native-vector-icons
+ionicons.com to get the icons world
