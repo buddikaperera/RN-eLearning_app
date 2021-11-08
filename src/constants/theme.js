@@ -18,6 +18,8 @@ export const SIZES = {
       font: 14,
       radius: 12,
       padding: 24,
+      padding2: 10,
+      paddingH: 20,
 
       // font sizes
       largeTitle: 50,
@@ -26,6 +28,8 @@ export const SIZES = {
       h2: 22,
       h3: 16,
       h4: 14,
+      h5: 32,
+      h6: 36,
       body1: 30,
       body2: 22,
       body3: 16,
@@ -48,7 +52,11 @@ export const FONTS = {
             fontSize: SIZES.tinyTitle,
             lineHeight: 35,
       },
-      h1: { fontFamily: "Roboto-Black", fontSize: SIZES.h1, lineHeight: 36 },
+      h1: {
+            fontFamily: "Montserrat-ExtraBold",
+            fontSize: SIZES.h1,
+            lineHeight: 36,
+      },
       h2: {
             fontFamily: "Montserrat-ExtraBold",
             fontSize: SIZES.h2,
@@ -63,6 +71,16 @@ export const FONTS = {
             fontFamily: "Montserrat-ExtraBold",
             fontSize: SIZES.h4,
             lineHeight: 22,
+      },
+      h5: {
+            fontFamily: "Montserrat-ExtraBold",
+            fontSize: SIZES.h5,
+            lineHeight: 32,
+      },
+      h6: {
+            fontFamily: "Montserrat-ExtraBold",
+            fontSize: SIZES.h6,
+            lineHeight: 36,
       },
       body1: {
             fontFamily: "Montserrat-Regular",

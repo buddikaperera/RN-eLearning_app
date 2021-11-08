@@ -1,4 +1,6 @@
 {
-  "name": "RN_ElearningApp",
-  "displayName": "RN_ElearningApp"
+      "name": "RN_ElearningApp",
+      "displayName": "RN_ElearningApp",
+      "icon": "./src/images/sketch.png",
+      "assets": "./src/fonts"
 }
