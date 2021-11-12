@@ -69,6 +69,12 @@ function Routes() {
                         />
 
                         <Stack.Screen
+                              name="Xd"
+                              component={Xd}
+                              options={{ headerShown: false }}
+                        />
+
+                        <Stack.Screen
                               name="VideoPage"
                               component={VideoPage}
                               options={{ headerShown: false }}
